@@ -25,3 +25,45 @@ When finished, you should be able to trade your documentation with any other gro
 You can also look at docs you've referred to before for inspiration, both large (Express, React, etc.) and smaller-scale (Chalk, Nodemon, etc.).
 
 ## Write your documentation below:
+
+
+# Purpose
+MyPokemon is a social media platform for Pokemon where they can connect with other Pokemon outside of their battles.
+
+
+# Components Tree
+Components
+- App
+    - LandingPage
+        - Button
+    - PostDisplay
+        - Post
+            - Avatar
+            - CommentDisplay
+            - CommentBox
+                - Comment
+
+
+# How to use MyPokemon App
+1. Clone down the repo.
+2. Type in npm i in the terminal to download all relevant dependancies and files.
+3. Type in npm start in the terminal to open up the app.
+    - If the browser doesn't automatically start up, open up your browser and go to localhost:3000 to open up the app.
+4. To enter the app, add /posts to the URL and it will take you to a new page.
+5. In the post box type in whatever is on your mind and click send - this will do a POST request and the comment will be added onto the page.
+    - You can edit or delete your post by clicking the relevant button.
+
+# In-Use Example
+-  Currently this is under development and a landing page is all that we currently show. 
+
+# Dependencies
+-   React 17.0.2  -- its react it does what it says    
+-   React-dom 17.0.2     -- Actively updating the virtual DOM 
+-   React-router-dom 6.2.1  -- Linking various paths within App 
+-   React-scripts 5.0.0
+-   Uuid 8.3.2  --  Library to generate random user ID's
+
+# Notes
+-  Landing page images are pulled directly for the APi
+-  Current explore Site button is not linked please refer to point 4 under How to Use
+-  Routes are currently not setup as app is in Pre-Alpha (Donate at my go fund me) 
