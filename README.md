@@ -25,3 +25,39 @@ When finished, you should be able to trade your documentation with any other gro
 You can also look at docs you've referred to before for inspiration, both large (Express, React, etc.) and smaller-scale (Chalk, Nodemon, etc.).
 
 ## Write your documentation below:
+
+
+# Purpose
+MyPokemon is a social media platform for Pokemon where they can connect with other Pokemon outside of their battles.
+
+
+# Components Tree
+Components
+- App
+    - LandingPage
+        - Button
+    - PostDisplay
+        - Post
+            - Avatar
+            - CommentDisplay
+            - CommentBox
+                - Comment
+
+
+# How to use MyPokemon App
+1. Clone down the repo.
+2. Type in npm i in the terminal to download all relevant dependancies and files.
+3. Type in npm start in the terminal to open up the app.
+    - If the browser doesn't automatically start up, open up your browser and go to localhost:3000 to open up the app.
+4. To enter the app, add /posts to the URL and it will take you to a new page.
+5. In the post box type in whatever is on your mind and click send - this will do a POST request and the comment will be added onto the page.
+    - You can edit or delete your post by clicking the relevant button.
+
+# In-Use Example
+-  Examples showing your software in use
+
+# Depedencies
+-  Dependencies list and what each dependency does in your code
+
+# Notes
+-  Any other information users and developers might need to know
