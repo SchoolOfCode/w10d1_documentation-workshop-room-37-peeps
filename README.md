@@ -54,10 +54,16 @@ Components
     - You can edit or delete your post by clicking the relevant button.
 
 # In-Use Example
--  Examples showing your software in use
+-  Currently this is under development and a landing page is all that we currently show. 
 
-# Depedencies
--  Dependencies list and what each dependency does in your code
+# Dependencies
+-   React 17.0.2  -- its react it does what it says    
+-   React-dom 17.0.2     -- Actively updating the virtual DOM 
+-   React-router-dom 6.2.1  -- Linking various paths within App 
+-   React-scripts 5.0.0
+-   Uuid 8.3.2  --  Library to generate random user ID's
 
 # Notes
--  Any other information users and developers might need to know
+-  Landing page images are pulled directly for the APi
+-  Current explore Site button is not linked please refer to point 4 under How to Use
+-  Routes are currently not setup as app is in Pre-Alpha (Donate at my go fund me) 
